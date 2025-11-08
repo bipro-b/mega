@@ -282,7 +282,7 @@ Create SonarQube Token:
   kubectl get svc -n argocd
   ```
   ## Check ArgoCd in Node Machine (Not in Master)
-  - <b> Check the port where ArgoCD server is running and expose (port 30169 argocd-server) it on security groups of a worker node (mega-mega-Node not mega node)</b>
+  - <b> Check the port where ArgoCD server is running and expose (i.e. port 80:30169 argocd-server) it on security groups of a worker node (mega-mega-Node not mega node)</b>
 
   - <b>Access it on browser, click on advance and proceed with</b>
   ```bash
