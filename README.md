@@ -396,7 +396,7 @@ Jenkins > manage > System > Global Trusted Pipeline Libraries: Name: Shared | Pr
 
 #
 ## Setup Application Monitor on EKS cluster using prometheus and grafana via HELM (On Master machine)
-- <pInstall Helm Chart</p>
+- Install Helm Chart
 ```bash
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
 ```
