@@ -367,7 +367,7 @@ Create SonarQube Token:
 ## Add Shared Library Repo for Jenkins to pick up the Shared Library:
 ```bash
 Repo URL: https://github.com/bongodev/jenkins-shared-library
-Jenkins > manage > Syatem > Global Trusted Pipeline Libraries
+Jenkins > manage > System > Global Trusted Pipeline Libraries: Name: Shared | Project Repository: Repo URL | Credentials: Select GitHub-PAT-Key
 ```
 
 ## Add DockerHub PAT key to Jenkins:
