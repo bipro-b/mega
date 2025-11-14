@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: bongodev/mega-frontend-beta:v1.3
+          image: bongodev/mega-frontend-beta:
           ports:
             - containerPort: 5173
 ---

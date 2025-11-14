@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: bongodev/mega-backend-beta:v1.3
+          image: bongodev/mega-backend-beta:
           ports:
             - containerPort: 8080
 ---
